@@ -35,9 +35,15 @@ public class Reservation {
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
-    public void updateDates(Date checkin, Date checkout) {
+    public String updateDates(Date checkin, Date checkout) {
+        if(checkin.before(this.checkin) || checkout.before(this.checkout)) {
+            return "Reservation dates for update after check-in date";
+        } if(!checkout.after(checkin)) {
+            return "Check-out date must be after check-in date";
+        }
         this.checkin = checkin;
         this.checkout = checkout;
+        return null;
     }
 
     @Override //toString é uma sobreposição
