@@ -69,3 +69,26 @@ Este projeto não é apenas sobre resolver o problema, mas sim sobre:
 1. Clone o repositório:
 ```bash
 git clone https://github.com/oliveiranthony/HotelReservation.git
+```
+2. Abra o projeto em uma IDE (IntelliJ recomendado)
+3. Execute a classe principal 
+
+
+---
+
+🔍 Diferencial do projeto
+
+Diferente de projetos comuns, este repositório permite:
+
+👉 Visualizar a evolução real de um desenvolvedor
+👉 Entender erros comuns e como corrigi-los
+👉 Aprender boas práticas através da comparação
+
+📌 Observação
+
+Este projeto foi desenvolvido com fins educacionais, focado em aprendizado e evolução prática.
+
+👨‍💻 Autor
+
+Anthony Oliveira
+[LinkedIn] (coloca aqui depois se quiser)
