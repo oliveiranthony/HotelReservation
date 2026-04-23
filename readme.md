@@ -90,5 +90,4 @@ Este projeto foi desenvolvido com fins educacionais, focado em aprendizado e evo
 
 👨‍💻 Autor
 
-Anthony Oliveira
-[LinkedIn] (coloca aqui depois se quiser)
+Anthony Oliveira Carvalho
